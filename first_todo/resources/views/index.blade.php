@@ -4,8 +4,8 @@
     display:flex;
     justify-content:center;
   }
-  th{
-    display:block;
+  th,td{
+    width:200px;
   }
 </style>
 

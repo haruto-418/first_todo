@@ -7,7 +7,6 @@
         background-color:#99FFFF;
       }
       h1{
-        padding:20px;
         font-size:20pt;
       }
       .card{
@@ -16,8 +15,8 @@
         width:70%;
         border-radius:30px;
         position:relative;
-        top:25vh;
-        margin:0 auto;
+        margin:20px auto;
+        padding:30px;
       }
       .add_area{
         position:absolute;
