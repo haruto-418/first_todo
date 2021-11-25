@@ -35,16 +35,19 @@
         right:5%;
         cursor:pointer;
       }
+      .contents{
+        display:flex;
+      }
     </style>
   </head>
   <body>
-    @yield('content')
     <div class="card">
       <h1>Todo List</h1>
       <form action="/" method="post">
         <input class="add_area" type="text" name="">  
         <input class="add_btn" type="submit" value="追加" >
       </form>
+      @yield('content')
     </div>
   </body>
 </html>
