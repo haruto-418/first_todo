@@ -9,10 +9,6 @@ class Todo extends Model
 {
     use HasFactory;
 
-    protected $fillable=['content'];
-
-    public function getDetail()
-    {
-        return $this->content;
-    }
+    protected $fillable=['content','create_at','update_at'];
+    public $timestamps = false;
 }

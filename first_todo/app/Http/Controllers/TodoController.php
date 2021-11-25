@@ -12,9 +12,10 @@ class TodoController extends Controller
         $items=Todo::all();
         return view('index',['items'=>$items]);
     }
-    public function post(Request $request)
+    public function create(Request $request)
     {
-        $items=Todo::all();
-        return view('index',['items'=>$items]);
+        $form=$request->all();
+        Todo::create($form);
+        return redirect('/');
     }
 }

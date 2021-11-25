@@ -16,10 +16,10 @@
   @foreach($items as $item)
   <tr>
     <th>作成日</th>
-    <td>{{$item->create_at}}</td>
+    <th>タスク名</th>
   </tr>
   <tr>
-    <th>タスク名</th>
+    <td>{{$item->create_at}}</td>
     <td>{{$item->content}}</td>
   </tr>
   @endforeach
