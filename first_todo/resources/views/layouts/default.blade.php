@@ -12,7 +12,7 @@
       }
       .card{
         background-color:#fff;
-        height:50%;
+        min-height:50%;
         width:70%;
         border-radius:30px;
         position:relative;
