@@ -35,8 +35,8 @@
         right:5%;
         cursor:pointer;
       }
-      .contents{
-        display:flex;
+      .content{
+        margin-top:60px;
       }
     </style>
   </head>
@@ -47,7 +47,9 @@
         <input class="add_area" type="text" name="">  
         <input class="add_btn" type="submit" value="追加" >
       </form>
-      @yield('content')
+      <div class="content">
+        @yield('content')
+      </div>
     </div>
   </body>
 </html>
