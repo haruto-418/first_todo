@@ -1,14 +1,8 @@
-<html>
-  <head>
-    <title>@yield('title')</title>
-    <style>
-      body{
-        font-size:16pt;
-        background-color:#99FFFF;
-      }
-    </style>
-  </head>
-  <body>
-    @yield('content')
-  </body>
-</html>
+@extends('layouts.default')
+
+@section('title','index')
+
+@section('content')
+
+@endsection
+
