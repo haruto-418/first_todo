@@ -19,11 +19,21 @@
         top:25vh;
         margin:0 auto;
       }
-      .add_todo{
+      .add_area{
         position:absolute;
         left:5%;
         width:70%;
         height:32px;
+      }
+      .add_btn{
+        color:red;
+        background-color:#fff;
+        border:1px red solid;
+        position:absolute;
+        height:32px;
+        width:16%;
+        right:5%;
+        cursor:pointer;
       }
     </style>
   </head>
@@ -31,7 +41,10 @@
     @yield('content')
     <div class="card">
       <h1>Todo List</h1>
-      <input class="add_todo" type="text" name="">
+      <form action="/" method="post">
+        <input class="add_area" type="text" name="">  
+        <input class="add_btn" type="submit" value="追加" >
+      </form>
     </div>
   </body>
 </html>
