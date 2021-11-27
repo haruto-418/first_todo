@@ -25,6 +25,9 @@ class TodoController extends Controller
     }
     public function update(Request $request)
     {
+        $form=$request->all();
+        unset($form['_token']);
+        Todo::where('id',$request->id)->update($form);
         return redirect('/');
     }
 }

@@ -54,7 +54,7 @@
     <form action="/update" method="post">
     @csrf
     <td>
-      <input type="text" value="{{$item->content}}">
+      <input type="text" value="{{$item->content}}" name="content">
       <input type="hidden" value="{{$item->id}}" name="id">
     </td>
     <td>
