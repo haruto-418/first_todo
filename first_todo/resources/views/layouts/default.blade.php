@@ -25,22 +25,26 @@
         height:32px;
       }
       .add_btn{
-        color:red;
+        color:#FF00CC;
         background-color:#fff;
-        border:1px red solid;
+        border:2px #FF00CC solid;
         position:absolute;
         height:32px;
         width:16%;
         right:5%;
+        font-weight:bold;
         cursor:pointer;
+        border-radius:20px;
       }
       .add_btn:hover{
         color:#fff;
-        background-color:red;
+        background-color:#FF00CC;
         transition:0.3s;
       }
       .content{
         margin-top:60px;
+        display:flex;
+        justify-content:center;
       }
     </style>
   </head>
