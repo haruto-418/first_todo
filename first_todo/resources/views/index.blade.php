@@ -28,7 +28,7 @@
         <input type="text" value="{{$item->content}}">
       </td>
       <td>
-        <input type="submit" name="{{$item->id}}" value="削除">
+        <input type="submit" value="削除">
       </td>
       </tr>
       @endforeach
