@@ -35,8 +35,8 @@
         cursor:pointer;
       }
       .add_btn:hover{
-        color:#fff;
         background-color:red;
+        color:#fff;
         transition:0.3s;
       }
       .content{
@@ -47,7 +47,7 @@
   <body>
     <div class="card">
       <h1>Todo List</h1>
-      <form action="/" method="post">
+      <form action="/add" method="post">
       @csrf
         <input class="add_area" type="text" name="content">  
         <input class="add_btn" type="submit" value="追加" >
