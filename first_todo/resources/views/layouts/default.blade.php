@@ -34,6 +34,11 @@
         right:5%;
         cursor:pointer;
       }
+      .add_btn:hover{
+        color:#fff;
+        background-color:red;
+        transition:0.3s;
+      }
       .content{
         margin-top:60px;
       }

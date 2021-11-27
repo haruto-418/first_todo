@@ -6,6 +6,7 @@
   }
   th,td{
     width:200px;
+    text-align:center;
   }
 </style>
 
