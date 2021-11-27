@@ -5,3 +5,4 @@
 - stashブランチからstash#2ブランチを作成した。
 - updateブランチ捨てて、update2ブランチ作ったから、updateについての実装はupdate2ブランチで行う。
 - update実装完了したから、update2ブランチ削除した。
+- 今のmasterブランチは、バリデーション以外のtodoアプリが実装できているはず。
