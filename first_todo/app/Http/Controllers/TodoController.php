@@ -20,8 +20,7 @@ class TodoController extends Controller
     }
     public function delete(Request $request)
     {
-        $form=$request->all();
-        Todo::find($form->id)->delete();
+        Todo::find($request->id)->delete();
         return redirect('/');
     }
 }
