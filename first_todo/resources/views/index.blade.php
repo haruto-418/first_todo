@@ -52,15 +52,16 @@
   <tr>
     <td>{{$item->create_at}}</td>
     <td>{{$item->content}}</td>
-    <form action="/delete" method="post">
+    <form action="/update" method="post">
       @csrf
       <td>
         <input type="submit" class="update_btn" value="更新">
       </td>
     </form>
-    <form action="/update" method="post">
+    <form action="/delete" method="post">
       @csrf
       <td>
+        <input type="hidden" name="id" value="{{$item->id}}">
         <input type="submit" class="delete_btn" value="削除">
       </td>
     </form>
