@@ -38,7 +38,7 @@
   }
 </style>
 
-@section('title','Index')
+@section('title','Todo')
 
 @section('content')
 <table>
