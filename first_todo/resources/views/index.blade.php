@@ -51,10 +51,13 @@
   </tr>
   <tr>
     <td>{{$item->create_at}}</td>
-    <td>{{$item->content}}</td>
     <form action="/update" method="post">
-      @csrf
-      <td>
+    @csrf
+    <td>
+      <input type="text" value="{{$item->content}}">
+      <input type="hidden" value="{{$item->id}}" name="id">
+    </td>
+    <td>
         <input type="submit" class="update_btn" value="更新">
       </td>
     </form>
